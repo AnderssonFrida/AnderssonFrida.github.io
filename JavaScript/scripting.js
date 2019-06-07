@@ -48,14 +48,14 @@ $(document).ready(function(){
 /*==============================================================================================*/
 /*===== Contact Me =====*/
 /*==============================================================================================*/
-    var projActive = 0;
+    var hoverActive = 0;
     
     // Hover on links
     $("#facebook_logga").hover(
         function(){
             $(this).animate({opacity: "0.7"}, 200);
         }, function() {
-            if(projActive != 1){
+            if(hoverActive != 1){
                 $(this).animate({opacity: "1.0"}, 200);
             }
         }
@@ -64,7 +64,7 @@ $(document).ready(function(){
         function(){
             $(this).animate({opacity: "0.7"}, 200);
         }, function() {
-            if(projActive != 2){
+            if(hoverActive != 2){
                 $(this).animate({opacity: "1.0"}, 200);
             }
         }
@@ -73,7 +73,7 @@ $(document).ready(function(){
         function(){
             $(this).animate({opacity: "0.7"}, 200);
         }, function() {
-            if(projActive != 3){
+            if(hoverActive != 3){
                 $(this).animate({opacity: "1.0"}, 200);
             }
         }
