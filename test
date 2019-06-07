@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>hako.design</title>
+
+	<meta charset="UTF-8"> 
+
+	<meta name="viewport" content="width=device-width, initialscale=1.0">
+	<meta name="keywords" content="Design, Interaction, Portfolio, Programming, Web, Application">
+	<meta name="description" content="Web portfolio of junior interaction designer Hanna Konradsson">
+	<meta name="author" content="Hanna Konradsson">
+	<meta name="distribution" content="web">
+
+	<link href="https://fonts.googleapis.com/css?family=Mitr:200" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" 
+	href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script src="scripts.js"></script>
+</head>
+
+<body>
+	<div class="siteWrapper">
+	<header>
+	<nav>
+		<ul id="navlist" class="placeholder">
+			<li id="nav_name">Hanna Konradsson</li>
+			<li id="nav_logo"><a class="smooth" href="#start">hako.design</a></li>
+
+			<li id="hamburger"><a href="javascript:void(0);" class="hamburgerIcon"><div></div><div></div><div></div></a></li>
+			<li id="nav_last"><a href="documents/resume_hanna_konradsson.pdf">Resumé<span class="fa fa-download"></span></a></li>
+			<li><a class="smooth" href="#contact">Contact</a></li>
+        	<li><a class="smooth" href="#projects">Projects</a></li>
+        	
+     	</ul>
+	</nav>
+	</header>
+	
+	<div class="centered quote">
+		<h2>Junior designer <br>
+			Interaction design and Engineering M. at Umeå University</h2>
+	</div>
+
+	<div class="icon imgcenter">
+		<img id="techIcon" src="images/icons/icon_1.png" alt="Technology icon">
+		<img id="designIcon" src="images/icons/icon_2.png" alt="Design icon">
+	</div>
+
+	<div id="container">
+		<section id="mainCenter">
+			<div class="centered alignCenter">
+				<div class="horizonLinkL link">
+					<h2><a>&#x276E; Technology</a></h2>
+				</div>
+
+				<div class="horizonLinkR link">
+					<h2><a>Design &#x276F;</a></h2>
+				</div>
+			</div>
+		</section>
+
+		<!-- NEW -->
+		<section id="mainLeft">
+			<div class="centered">
+
+				<div class="upper">
+					<div class="right col-4">
+						<div class="absCenter">
+						<h1>Studies and interests</h1>
+						<table>
+						  	<tr>
+						    	<th>UX &amp; UI</th>
+						    	<td>
+						    		<span class="blue">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span><span class="pink">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span>
+						    	</td>
+						  	</tr>
+						  	<tr>
+						    	<th>Prototyping</th>
+						    	<td>
+						    		<span class="blue">&#9650;</span><span class="pink">&#9660;</span><span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="lblue">&#9650;</span><span class="blue">&#9660;</span><span class="pink">&#9650;</span><span class="lblue">&#9660;</span>
+						    	</td>
+						  	</tr>
+						  	<tr>
+						    	<th>HCI &amp; HRI</th>
+						    	<td>
+						    		<span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="blue">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span><span class="lblue">&#9650;</span>
+						    	</td>
+						  	</tr>
+						  	<tr>
+						    	<th>Web Applications</th>
+						    	<td>
+						    		<span class="lblue">&#9650;</span><span class="blue">&#9660;</span><span class="pink">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span>
+						    	</td>
+						  	</tr>
+						  	<tr>
+						    	<th>Project Management</th>
+						    	<td>
+						    		<span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="blue">&#9650;</span><span class="lblue">&#9660;</span>
+						    	</td>
+						  	</tr>
+						  	<tr>
+						    	<th>Databases</th>
+						    	<td>
+						    		<span class="blue">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span>
+						    	</td>
+						  	</tr>
+						  	<tr>
+						    	<th>Computer Graphics</th>
+						    	<td>
+						    		<span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="blue">&#9650;</span>
+						    	</td>
+						  	</tr>		  	
+						</table>
+						</div>
+					</div>
+
+					<div class="left col-4">
+						<div id="iconGallery">
+							<img src="images/icons/iconC.svg" alt="C programming icon">
+							<img src="images/icons/iconC++.svg" alt="C++ programming icon">
+							<img src="images/icons/iconJava.svg" alt="Java programming icon">
+							<img src="images/icons/iconPy.svg" alt="Python programming icon">
+							<img src="images/icons/iconHtml.svg" alt="HTML5 icon">
+							<img src="images/icons/iconCss.svg" alt="CSS3 icon">
+							<img src="images/icons/iconJS.svg" alt="JavaScript icon">
+							<img src="images/icons/iconSql.svg" alt="SQL icon">
+							<img src="images/icons/iconPs.svg" alt="Adobe Photoshop icon">
+							<img src="images/icons/iconAi.svg" alt="Adobe Illustrator icon">
+							<img src="images/icons/iconBl.svg" alt="Blender icon">
+							<img src="images/icons/iconGit.svg" alt="Github icon">
+						</div>
+					</div>
+				</div>
+				<div class="quote">
+					<h2><span style="font-size: 24px">&#x275D; </span>Technology has intrigued me since my childhood computer.<br>It is an ever evolving puzzle, the one puzzle I actually enjoy.<span style="font-size: 24px"> &#x275E;</span></h2>
+				</div>
+			</div>
+
+			<div class="backR link">
+					<h2><a>&#x2717;</a></h2>
+			</div>
+		</section>
+
+------------------------------------------------------------------------------------------
+		<!-- NEW -->
+		<section id="mainRight">
+			<div class="centered">
+
+				<div class="upper"> = class="about_container"
+					<div class="left col-4"> = class="col_right"
+						<div class="text absCenter">
+							<h1>Hobbies &amp; distractions</h1>
+							<div class="list">
+							<h3> Life Drawing &amp; Portraits<br>
+								Typography &amp; Logo Design<br>
+					     		3D Modelling<br>
+					     		Illustration</h3>
+								<ul>
+									<li>Traditional Drawing</li>
+									<li>Digital Painting</li>
+									<li>Graphical Design</li>
+								</ul>
+					        	<h3>Crafts</h3>
+								<ul>
+									<li>Embroidery</li>
+									<li>Crochet</li>
+								</ul>
+					     	</div>
+				     	</div>
+					</div>
+
+					<div class="right col-4"> = class="col_left"
+						<div id="photoGallery">
+							<img id="gallery" class="slides fade" src="images/digital/lantern.png" alt="Concept art of lantern">
+							<img class="slides fade" src="images/digital/rain3colourmodNomark.gif" alt="Simple rain and drop animation">
+							<img class="slides fade" src="images/digital/ICO.png" alt="Fan art of the PS2 game Ico, made for print">
+							<img class="slides fade" src="images/digital/SHADOW.png" alt="Digital illustration of characters backlit in window">
+							<img class="slides fade" src="images/digital/LAST.png" alt="Fan art of the PS2 game the Last Guardian, made for print">
+							<img class="slides fade" src="images/embroidery/loved.jpg" alt="Embroidery of lyrics from Regina Spektor song the Flowers">
+							<img class="slides fade" src="images/embroidery/frames.jpg" alt="Embroidery of lyrics from various songs">
+							<img class="slides fade" src="images/life/move.jpg" alt="Life drawing of movement">
+							<img class="slides fade" src="images/life/effort.jpg" alt="Life ink drawing">
+							<img class="slides fade" src="images/crochet/bags.jpg" alt="Crocheted bag and handbag">
+							<img class="slides fade" src="images/crochet/trico.jpg" alt="Crocheted stuffed animal based on Trico from the Last Guardian">
+							<img class="slides fade" src="images/traditional/nouveu.jpg" alt="Traditional Mucha inspired drawing">
+							<img class="slides fade" src="images/digital/BB.png" alt="Simple digital drawing of biker bunnies">
+						</div>
+					</div>
+				</div>
+
+				<div class="quote">
+					<h2><span style="font-size: 24px">&#x275D; </span>Whenever I can, I allow myself to drown in design details.<br>Developing my artistry is one of life's great joys<span style="font-size: 24px"> &#x275E;</span>
+					</h2>
+				</div>
+			</div>
+
+			<div class="backL link">
+				<h2><a>&#x2717;</a></h2>
+			</div>
+		</section>
+        -------------------------------------------------------------------
+
+<div class="about_content"> 
+    <div class="about_container">
+        <div id="photoGallery" class="about_image">
+            
+        </div>
+        <div class="about_text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non commodo elit. 
+                Donec ut metus a libero vehicula dignissim nec at diam. Vestibulum malesuada libero 
+                et felis interdum, sed efficitur tortor commodo. Phasellus a tempor dolor. Quisque eros risus, 
+                posuere et sodales ac, sagittis eget ipsum. Integer et lectus auctor dui auctor mollis. 
+                Curabitur at interdum ante. Etiam fermentum ornare risus in malesuada. <br> <br>
+                <a class="about_subtitle"> Nunc quis</a> <br>
+                Nunc nec vulputate leo. Fusce semper nisl auctor magna semper porta. Integer in tellus 
+                quis ipsum egestas dapibus. Proin pulvinar dignissim augue at ultrices. Ut tristique 
+                tellus hendrerit, lacinia purus sed, interdum quam. Nullam tempus leo libero, 
+                tincidunt eleifend enim iaculis at. Curabitur sit amet ornare diam.
+                Donec ac imperdiet nulla. Proin porttitor erat quis euismod condimentum. 
+                Proin nec sodales purus. Aliquam mauris ante, iaculis vitae molestie vitae, 
+                semper quis dolor. Aenean eu lacus felis. Etiam ornare euismod ex eu dapibus. 
+                Ut et rutrum arcu. Ut sed libero nibh. Maecenas scelerisque ultricies nulla a bibendum.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+    ------------------------------------------------------------------------------------        
+
+
+
+	</div>
+
+	<section id="projects">
+		<div class="projectHeader">
+			<h1>Projects</h1>
+			<div class="projectIcons">
+				<img id="proj1" src="images/projFarm.svg" alt="placeholder">
+				<img id="proj2" src="images/projBox.svg" alt="placeholder">
+				<img id="proj3" src="images/projRend.svg" alt="placeholder">
+				<img id="proj4" src="images/projMyr.svg" alt="placeholder">
+			</div>
+    	</div>
+
+    	<div class="close link" id="close">
+				<h2><a>&#x2717;</a></h2>
+		</div>
+
+    	<section class="projectBanner">
+
+    	<div class="project" id="project1">
+    			<div class="projectContent">
+	    			<div class="col-5">
+	    				<div class="centered">
+		    				<h2>FarmTech</h2>
+		    				<h4>Spring 2017: University project for SDB BioTech</h4>
+		    				
+		    				<p>Project with the purpose of developing a concept of a service for farmers to use SDB BioTech's new microchips for analysing bio-content in liquid and thus diagnosing dairy cows quickly on site. My responsibility was to develop the mobile interface of the service.</p>
+		    				
+		    				<p>A prestudy was held including: Survery input from 20 farmers and 20 veterinarians regarding medical process and preferenses, a lofi-prototype in paper, and two in depth interviews with farmers. From this we were able to find out what we were legally allowed to do and created a service around that concept.</p>
+
+		    				<p>The result was graphical prototypes of four different devices: Mobile for farmer, desktop for farmer, desktop for veterinarian and a device specifically made for use during milking. All combined to provide a distributed service. Through this service, which we called FarmTech, farmers and veterinarians could communicate, share data, schedule appointments and compare statistics.</p>
+		    			</div>
+	    			</div>
+	    			<div class="col-5">
+	    				<div class="centered">
+		    				<div class="projectGallery" id="proj1Gallery">
+								<img class="slides fade" src="images/design/prototype/13.jpg" alt="placeholder">
+								<img class="slides fade" src="images/design/farmLogIn.png" alt="placeholder">
+								<img class="slides fade" src="images/design/farmTest2.png" alt="placeholder">
+								<img class="slides fade" src="images/design/farmFlow.png" alt="placeholder">
+							</div>
+
+							<table>
+							    <tr>
+							    	<th>Concept &amp; Prototyping</th>
+							    	<td>
+							    		<span class="blue">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span><span class="pink">&#9650;</span><span class="lblue">&#9660;</span>
+							    	</td>
+							    </tr>
+							    <tr>
+								    <th>Graphical Design</th>
+								</tr>
+								<tr>
+								    <th>Typography &amp; Logo Design</th>
+								</tr>
+							</table>
+		    			</div>
+	    			</div>
+	    		</div>
+    		</div>
+
+    		<div class="project" id="project2">
+	    		<div class="projectContent">
+	    			<div class="col-5">
+	    				<div class="centered">
+		    				<h2>CNC Musicbox</h2>
+		    				<h4>Summer 2017: Prop production for Myrsork Filmproduktion</h4>
+		    				
+		    				<p>Prop project for a local film production wherein a music box was sketched, modelled, exported, routed, stained and assembled. The musicbox was also meant to hold remotely controlled machinery turning a small key during filming.</p>
+		    				
+		    				<p>The sketches acted as a basis for design discussion, which concluded that the shape ought to be cylindrical instead of oval. The design had to include forget-me-not decorations and needed internal space for the turning machinery. It was modelled and exported in Blender.</p>
+
+		    				<p>Test were printed using 3D printers, then all pieces were routed from pine. The body was steamed to shape, glued together and stained. The bluetooth machinery and batteries were inserted and it was ready for filming.The whole process took about just over 100 hours.</p>
+		    			</div>
+	    			</div>
+	    			<div class="col-5">
+	    				<div class="centered">
+		    				<div class="projectGallery" id="proj2Gallery">
+								<img class="slides fade" src="images/woodwork/musicbox.jpg" alt="placeholder">
+								<img class="slides fade" src="images/woodwork/Skiss_cylind_form.png" alt="placeholder">
+								<img class="slides fade" src="images/woodwork/Skiss_cylind_top.png" alt="placeholder">
+								<img class="slides fade" src="images/model/wire.png" alt="placeholder">
+								<img class="slides fade" src="images/model/rendered.png" alt="placeholder">
+								<img class="slides fade" src="images/woodwork/Timmy.jpg" alt="placeholder">
+							</div>
+
+							<table>
+							    <tr>
+							    	<th>Concept &amp; Prototyping</th>
+							    	<td>
+							    		<span class="blue">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span><span class="pink">&#9650;</span><span class="lblue">&#9660;</span>
+							    	</td>
+							    </tr>
+							    <tr>
+							    	<th>Project Management</th>
+							    	<td>
+							    		<span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="blue">&#9650;</span><span class="lblue">&#9660;</span>
+							    	</td>
+							  	</tr>
+							  	<tr>
+								    <th>3D Modelling</th>
+								</tr>	
+								<tr>
+								    <th>Graphical Design</th>
+								</tr>	
+							</table>
+		    			</div>
+	    			</div>
+	    		</div>
+    		</div>
+
+    		<div class="project" id="project3">
+    			<div class="projectContent">
+	    			<div class="col-5">
+	    				<div class="centered">
+		    				<h2>Simple OpenGL renderer</h2>
+		    				<h4>Vinter 2017: University project</h4>
+
+		    				<p>A simple rendering program written with C and openGL in qtCreator which can load one object at a time, including loading the object's respective textures and materials. The project was done in a course covering the basics of computer graphics.</p>
+		    				
+		    				<p>The renderer has adjustable lighting, perspective and textures, and camera and objects can me moved and transformed using keyboard and cursor input. A light moving along a parabolic path was also added to the renderer. This light can be paused and started with keyboard input. </p>
+
+		    				<p>The project was an exercise done to familiralise oneself with openGL and the rendering pipeline. The whole renderer is very simple. A lot of focus went into the shaders and understanding of concepts.</p>
+
+		    				<p> A better implementation would have been built upon a graph-setup to allow multiple lights, materials, states and object. This type of implementation was studied and experimented with in a later course.</p>
+		    			</div>
+	    			</div>
+	    			<div class="col-5">
+	    				<div class="centered">
+	    					<div class="projectGallery" id="proj3Gallery">
+								<img class="slides fade" src="images/render/pokeball.png" alt="placeholder">
+								<img class="slides fade" src="images/render/system.png" alt="placeholder">
+							</div>
+
+							<table>
+						    	<tr>
+							    	<th>Computer Graphics</th>
+							    	<td>
+							    		<span class="lblue">&#9650;</span><span class="pink">&#9660;</span><span class="blue">&#9650;</span>
+							    	</td>
+							  	</tr>
+							</table>
+		    			</div>
+	    			</div>
+	    		</div>
+    		</div>
+
+    		<div class="project" id="project4">
+    			<div class="projectContent">
+	    			<div class="col-5">
+	    				<div class="centered">
+		    				<h2>Film production</h2>
+		    				<h4>Summers 2015-2017: Concept design for Myrsork Filmproduktion</h4>
+
+		    				<p>Several summers and in my spare time I have done non-profit work for Myrsork Filmproduktion. Their first film was <i>Tjärnen Näck</i>, a full length feature film inspired by Swedish folklore and nordic culture. I was recruited to do the title design, create signs and typographic framed pictures that are of narrative importance in the film. The film trailer can be seen <a target="_blank" href="https://www.youtube.com/watch?v=Cg8228-4uTs">here</a>.</p>
+
+		    				<p>For their second film I also assisted during manuscript meetings and storyboarded parts which had very specific camera movement. Additionally, I created the film title, moodboards, concept sketches and illustrations, and produced the music box prop which were to have a central part in the film. This film is currently in post-production.</p>
+
+		    				<p>Myrsork Filmproduktion collaborated with <a target="_blank" href="http://filmivasterbotten.com/">Film i Västerbotten</a> and <a target="_blank" href="https://www.egerup.se/">Egerup Production &amp; Studio</a> in the making of both films. Finally, as a part of the Myrsork Filmproduktion group, I also created the Myrsork logo together with another groupmember.</p>
+		    				
+		    			</div>
+	    			</div>
+	    			<div class="col-5">
+	    				<div class="centered">
+
+	    					<div class="projectGallery" id="proj4Gallery">
+								<img class="slides fade" src="images/myrsork/moodboard.png" alt="placeholder">
+								<img class="slides fade" src="images/myrsork/sketch.png" alt="placeholder">
+								<img class="slides fade" src="images/myrsork/concept.png" alt="placeholder">
+								<img class="slides fade" src="images/myrsork/scene.png" alt="placeholder">
+								<img class="slides fade" src="images/logo/logo_tempColour.png" alt="placeholder">
+							</div>
+		    				
+
+							<table>
+							    <tr>
+							    	<th>Concept &amp; Prototyping</th>
+							    	<td>
+							    		<span class="blue">&#9650;</span><span class="lblue">&#9660;</span><span class="pink">&#9650;</span><span class="blue">&#9660;</span><span class="pink">&#9650;</span><span class="lblue">&#9660;</span>
+							    	</td>
+							    </tr>
+						    	<tr>
+							    	<th>Typography &amp; Logo Design</th>
+							    </tr>
+							    <tr>
+							    	<th>Portraits</th>
+							    </tr>
+							    <tr>
+							    	<th>3D Modelling</th>
+							    </tr>
+							    <tr>
+							    	<th>Digital Painting</th>
+							    </tr>
+							</table>
+		    			</div>
+	    			</div>
+	    		</div>
+    		</div>
+    		
+    	</section>
+	</section>
+
+	<section id="contact">
+		<div class="centered contactContent">
+    		<h1>Contact Me</h1>
+
+    		<address>
+    		<p>
+    		<a class="fa fa-facebook" href="https://www.facebook.com/profile.php?id=100011069284395"></a>
+    		<!-- <a class="fa fa-github" href="https://github.com/bluehortensia"></a> -->
+    		<a class="fa fa-linkedin" href="https://www.linkedin.com/in/hanna-konradsson-011450159/"></a>
+    		<br>
+    		<a href="mailto:hanna.konradsson@hotmail.se">hanna.konradsson@hotmail.se</a>
+    		<br>At: <a href="http://www.umu.se/english/?languageId=1">Umeå University, Umeå</a>
+    		<br>In accociation with: <a href="https://www.facebook.com/myrsorkfilm/">Myrsork Filmproduktion</a></p>
+    		<br>
+    		</address>
+		</div>
+	</section>
+	
+
+	<footer>
+		<div class="centered footerContent">
+			<p>Last updated
+			<br>03-04-2018
+			<br>
+			<br>This web page and all its content is <br> created and owned by Hanna Konradsson.</p>
+		</div>
+	</footer>
+	</div>
+</body>
+
+</html>

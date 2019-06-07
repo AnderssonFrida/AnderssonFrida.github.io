@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* ========================================================================================= */
+/** ==== Global ==== **/
+/* ========================================================================================= */
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#f8f8f8;
+    width: 100%;
+    height: 100%;
+  }
+
+body h1, h2, h3, h4{
+    font-family: "Roboto Slab", serif;
+}
+
+body p{
+    font-family: "Lato", sans-serif;
+}
+.main-container-index{ 
+    min-height: 120vh;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    background-image: url('../Image/Frida_startBild.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    min-height: 70vh;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.title {
+    padding: 0 40px;
+    margin: auto;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    max-width: 600px;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/* ========================================================================================= */
+/** ==== Header - Navigation bar ==== **/
+/* ========================================================================================= */
+.navigation_bar {
+    background-color: #000100;
+    border-bottom:#94c5cc 2.5px solid;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    bottom: 0;
+    position: sticky;
+    z-index:1;
+}
+
+.navigation_bar .nav {
+    list-style-type: none;
+    float: right;
+    padding-right: 20px;
+}
+
+.navigation_bar .nav li {
+    float: left;
+}
+
+.navigation_bar .nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.95; 
+    font-size: 16px;
+    font-family: "Roboto Slab", Georgia, serif;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.navigation_bar img {
+    width: 55px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 13px;
+}
+
+.navigation_bar li a span {
+    padding-left: 5px;
+    font-size: 0.875rem;
+}
+
+.navigation_bar .nav li a.current {
+    color:#94c5cc;
+    font-weight:bold;
+    font-size: 18px;
+}
+  
+.navigation_bar .nav li a:hover {
+    color:#a1a6b4;
+    font-weight:bold;
+}
+
+.navigation_bar img:hover {
+    opacity: 0.80;
+}
+
+.navigation_bar .dropdown .dropbtn_burger {
+    color: #f9f9f9;
+    display: none;
+}
+
+.navigation_bar .dropdown .dropdown_content a {
+    display: none;
+}
+
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+/** == Media Queries -> Header, Navigation bar == **/
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+@media(max-width: 838px) {
+    .navigation_bar ul.nav {
+        display: none;
+    }
+
+    .navigation_bar .dropdown .dropbtn_burger {
+        visibility: visible;
+        font-size: 35px;
+        padding-right: 25px;
+        padding-top: 16px;
+        position: relative;
+        display: inline-block; 
+        cursor: pointer;
+    }
+
+    .navigation_bar .dropdown .dropdown_content a span {
+        padding-left: 5px;
+        font-size: 0.875rem;
+    }
+ 
+    /* ~~ The container <div> - needed to position the dropdown content ~~ */
+    .navigation_bar .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* ~~ Dropdown Content (Hidden by Default) ~~ */
+    .navigation_bar .dropdown .dropdown_content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #000100;
+        min-width: 270px;
+        box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    /* ~~ Links inside the dropdown ~~ */
+    .navigation_bar .dropdown .dropdown_content a {
+        visibility: visible;
+        font-family: "Roboto Slab", Georgia, serif;
+        color: #ffffff;
+        opacity: 0.95;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* ~~ Change color of dropdown links on hover ~~ */
+    .navigation_bar .dropdown .dropdown_content a:hover {
+        color:#a1a6b4;
+        font-weight:bold;
+    }
+
+    /* ~~ Change color of current link/site ~~ */
+    .navigation_bar .dropdown .dropdown_content a.current {
+        color:#94c5cc;
+        font-weight:bold;
+        font-size: 18px;
+    }
+    .navigation_bar .dropdown .dropdown_content.show {
+        display: block;
+    }
+}
+
+
+/* ========================================================================================= */
+/** ==== Start - Site/Showcase ==== **/
+/* ========================================================================================= */
+#showcase{
+    height: 100%;
+    text-align:center;
+    color:#ffffff;
+}
+  
+#showcase h2{
+    margin-top:35px;
+    font-size:30px;
+}
+
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+/** == Media Queries -> Start, site/showcase == **/
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+@media (max-width: 838px) {
+    .main-container-index {
+        background:url('../Image/Frida_startBild_mediaQueries.png') no-repeat;
+        float: center;
+        text-align:center;
+        color:#ffffff;
+    }
+}
+
+
+/* ========================================================================================= */
+/** ==== About Me - Site/Showcase ==== **/
+/* ========================================================================================= */
+.about_content {
+	text-align: left;
+	display: grid;
+    grid-template-columns: 1fr minmax(768px, 1024px) 1fr;
+    grid-template-areas: 
+        ". about1 ."
+    ;
+    grid-gap: 2%;
+    margin-bottom: 40px;
+}
+
+.about_container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-area: about1;
+    grid-template-areas: 
+        "about_text about_img"
+    ;
+}
+
+.about_image {
+    /* padding: 2%; */
+    grid-area: about_img;
+}
+
+.about_image img {
+    width: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:0;
+    right:0; 
+    box-shadow: 3px 6px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+#photoGallery {
+	width: 100%;
+	position: relative;
+	
+	/* float: right; */
+	/* top: 50%;
+	transform: translateY(-50%); */
+}
+
+.about_text {
+    grid-area: about_text;
+    padding-right: 20px;
+}
+
+.about_subtitle{
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+/** == Media Queries -> About Me == **/
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+@media (max-width: 768px){
+    .about_content {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "about1"
+        ;
+        grid-gap: 2%;
+        margin-bottom: 40px;
+    }
+    .about_container {
+        grid-template-columns: 100%;
+        grid-template-areas: 
+            "about_img" 
+            "about_text"
+        ;
+    }
+    .about_image img {
+        width: auto;
+        height: 250px; 
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: block;
+    }
+
+    .about_text {
+        padding-top: 280px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+
+/* ========================================================================================= */
+/** ==== Education & Skills - Boxes ==== **/
+/* ========================================================================================= */
+#ES_boxes{
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+#ES_boxes .ES_box{
+    text-align: center;
+    width: 200px;
+    padding:20px 30px;
+}
+  
+#ES_boxes .ES_box img{
+    width:90px;
+}
+
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+/** == Media Queries -> Education & Skills == **/
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+@media (max-width: 768px){
+    .flexable{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* ========================================================================================= */
+/** ==== Work & Projects - Boxes ==== **/
+/* ========================================================================================= */
+#WP_boxes{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+#WP_boxes .WP_box{
+    text-align: center;
+    width:220px;
+    padding:20px 50px;
+}
+  
+#WP_boxes .WP_box img{
+    width:200px;
+}
+
+#WB_boxes i a.a_override {
+    color: black;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:-webkit-any-link:hover {
+    transition: 0.2s;
+    color: #a1a6b4;
+}
+
+#WB_boxes p a.a_override:hover {
+    transition: 0.2s;
+    color: #a1a6b4;
+}
+
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+/** == Media Queries -> Work & Projects == **/
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+@media (max-width: 768px){
+    .flexable{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* ========================================================================================= */
+/** ==== Java ANN Face Recognition - Site/Showcase ==== **/
+/* ========================================================================================= */
+.javaANN_container_image{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+    background-image: url('../Image/workProjects/ANN.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.javaANN_container_text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.javaANN_container_text p {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+/* ~~ Draggable faces - flex ~~ */
+#ANN_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#draggable_happy { 
+    text-align: center;
+    padding: 10px 20px 40px 20px;
+}
+
+#draggable_happy img{
+    width: 90px;
+}
+
+#draggable_sad { 
+    text-align: center; 
+    padding: 10px 20px 40px 20px;
+}
+
+#draggable_sad img{
+    width: 90px;
+}
+
+#draggable_mischievous { 
+    text-align: center; 
+    padding: 10px 20px 40px 20px;
+}
+
+#draggable_mischievous img{
+    width: 90px;
+}
+
+#draggable_angry { 
+    text-align: center; 
+    padding: 10px 20px 40px 20px;
+}
+
+#draggable_angry img{
+    width: 90px;
+}
+
+/* ~~ Canvas - flex ~~ */
+#flex_canvas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+/** == Media Queries -> ava ANN Face Recognition == **/
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+@media (max-width: 768px){
+    .flexable{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* ========================================================================================= */
+/** ==== IDag och Inatt 2018 - Site/Showcase ==== **/
+/* ========================================================================================= */
+.idagInatt_container_image {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+    background-image: url('../Image/workProjects/IDAGINATT.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.idagInatt_container_text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.idagInatt_container_text p {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+
+/* ========================================================================================= */
+/** ==== Java Chat Client - Site/Showcase ==== **/
+/* ========================================================================================= */
+.javaChatClient_container_image {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    
+    background-image: url('../Image/workProjects/javaChat.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.javaChatClient_container_text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.javaChatClient_container_text p {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+
+/* ========================================================================================= */
+/** ==== Multiple Infrared Sensors - Site/Showcase ==== **/
+/* ========================================================================================= */
+.multipleInfraredSensors_container_image {
+    width: 360px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+    background-image: url('../Image/workProjects/sensorGubbe.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.multipleInfraredSensors_container_text {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.multipleInfraredSensors_container_text p {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.multipleInfraredSensors_container_video {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.multipleInfraredSensors_container_video h3 {
+    padding: 0 40px;
+}
+
+
+/* ========================================================================================= */
+/** ==== Contact - Site/Showcase ==== **/
+/* ========================================================================================= */
+/* ~~ Contact me info ~~ */
+.contact_info_image{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_info_image img{
+    width: 570px;
+    padding-bottom: 65px;
+}
+
+/* ~~ Find me - Loggor/Links ~~ */
+.contact_links {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact_links img#facebook_logga {
+    width: 55px;
+    padding: 3px;
+}
+
+.contact_links img#insta_logga {
+    width: 55px;
+    padding: 3px;
+}
+
+.contact_links img#linkedin_logga {
+    width: 55px;
+    padding: 3px;
+}
+
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+/** == Media Queries -> Contact == **/
+/* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
+@media (max-width: 580px){
+    .contact_info_image img{
+        width: 100%;
+        max-width: 570px;
+        height: auto;
+        padding-bottom: 65px;
+        padding-right: 20px;
+    }
+}
+
+/* ========================================================================================= */
+/** ==== Footer ==== **/
+/* ========================================================================================= */
+footer {
+	position: relative;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    right: 0;
+	bottom: 0;
+    padding: 15px 0;
+    background-color: #000100;
+    text-align: center;
+    border-top:#94c5cc 2.5px solid;
+}
+
+footer p {
+	color: #ffffff;
+    font-size: 12px;
+    opacity: 0.95;
+}
+
+
