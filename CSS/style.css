@@ -270,11 +270,6 @@ body p{
     padding-right: 20px;
 }
 
-.about_subtitle{
-    font-family: "Roboto Slab", serif;
-    font-size: 18px;
-    font-weight: bold;
-}
 
 /* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
 /** == Media Queries -> About Me == **/
@@ -332,6 +327,20 @@ body p{
 #ES_boxes .ES_box img{
     width:90px;
 }
+
+.skills_subtitle_text{
+    padding: 0 40px;
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.skills_subtitle_text h2{
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
 
 /* ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== ~~~~ ==== */
 /** == Media Queries -> Education & Skills == **/
